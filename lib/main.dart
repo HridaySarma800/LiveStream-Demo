@@ -46,7 +46,8 @@ class MyApp extends StatelessWidget {
           const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
         ],
       ),
-      title: 'VideoSDK Flutter Example',
+      title: 'Live Stream Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         appBarTheme: const AppBarTheme().copyWith(
           color: primaryColor,
